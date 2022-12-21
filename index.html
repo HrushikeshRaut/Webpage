@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="hrushikesh">
+    <meta name="description" content="university enrollment form">
+    <title>enrolment page</title>
+    <link rel="icon" href="./images/download.jpg" type="icon_univ">
+</head>
+<style>
+    textarea{
+        resize: none;
+    }
+</style>
+<body >
+    <!-- head  part of the web page -->
+    <header>
+        <figure>
+            <img src="./images/unilogo.png" alt="logo" height="150" width="150">
+        </figure>
+        <h2 >Welcome To  University Home Page</h2>
+        <figure >
+        <img src="./images/download.jpg" height=200 width=400 alt="university image" >
+        <figcaption>University Campus</figcaption>
+    </figure>
+    </header>
+    <!-- main part of the web page -->
+    <main>
+        <section>
+            <!-- enrollment form starts here -->
+            <form action="">
+                <fieldset><legend><i>Enrollment form</i></legend>
+                    <!-- text box for name -->
+                   <p>
+                    <label for="fname">first name : </label>
+                    <input type="text" name="fname" id="fname" placeholder="type here">
+                   </p>
+                   <!-- text box for last name -->
+                   <p>
+                   <label for="lname">last name : </label>
+                   <input type="text" name="lname" id="lname" placeholder="type here">
+                   </p>
+                    <!-- text box for mail -->
+                   <p>
+                    <label for="mail">Email id : </label>
+                    <input type="email" name="mail" id="mail" placeholder="xyz@mail.com">
+                   </p>
+                    <!-- contact details -->
+                   <p>
+                    <label for="contact">Contact Number : </label>
+                    <input type="tel" name="contact" id="contact"
+                    pattern="[0-9]{3}[0-9]{3}[0-9]{4}" placeholder="5555555555">
+                   </p>
+                   <!-- Date of birth -->
+                   <p>
+                    <label for="dob">Date of birth : </label>
+                    <input type="number" name="dob" id="dob" min="1" max="31" step="1">
+                   </p>
+                            <!-- month slection dropdown list -->
+                   <p>
+                    <label for="month">month : </label>
+                    <select name="month" id="month">
+                        <option value="" selected></option>
+                        <option value="">january</option>
+                        <option value="">february</option>
+                        <option value="">march</option>
+                        <option value="">april</option>
+                        <option value="">may</option>
+                        <option value="">june</option>
+                        <option value="">july</option>
+                        <option value="">august</option>
+                        <option value="">september</option>
+                        <option value="">october</option>
+                        <option value="">november/option>
+                        <option value="">december</option>
+                    </select>
+                   </p>
+                         <!-- year selection -->
+                   <p>
+                    <label for="yr">Year : </label>
+                <input type="number" name="yr" id="ye" min="1975" max="2005" step="1">
+                   </p>
+
+                   <p>
+                    <label for="">Gender : </label>
+                    <input type="radio" name="gender" id="gender">male
+                    <input type="radio" name="gender" id="gender">female
+                   </p>
+                <!-- checkbox for qualification-->
+                <fieldset>
+                   <p>
+                    <label for="">Qualification : </label>
+                    <br>
+                    <input type="checkbox" name="ssc" id="ssc" >S.S.C
+                    <br>
+                    <input type="checkbox" name="hsc" id="hsc">H.S.C
+                    <br>
+                    <input type="checkbox" name="ug" id="ug">U.G
+                    <br>
+                    <input type="checkbox" name="pg" id="pg">P.G
+                    <br>
+                    <input type="checkbox" name="phd" id="phd">P.H.D
+                   </p>
+                </fieldset>
+                <br>
+                <!-- course slection drop down list -->
+                <fieldset>
+                   <p>
+                    <label for="" id="course">Course Selction : </label>
+                      <select name="" id="">
+                        <optgroup label="Under Grad">
+                            <option value="" selected></option>
+                                <option value="">B.B.A</option>
+                                <option value="">B.TECH</option>
+                        </optgroup>
+                        <optgroup label="Post Grad">
+                            <option value="">M.B.A</option>
+                            <option value="">M.TECH</option>
+                        </optgroup>
+                      </select> 
+                   </p>
+                </fieldset>
+                <!-- write about yourself -->
+                <p>
+                  <label for="">About Youself : </label>
+                  <textarea name="" id="" cols="30" rows="10" placeholder="type here a message"></textarea>
+                </p>
+                <!-- sumbit and reset button   -->
+                <fieldset>
+                   <p>
+                    <input type="button" value="SUMBIT">
+                    <input type="button" value="RESET">
+                   </p>
+                </fieldset>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <!-- footer of the page -->
+    <footer>
+          <!-- logo section -->
+        <section>
+        <figure >
+            <img src="./images/facebook.jpg" alt="facebooklogo">
+            <img src="./images/tweeter.jpg" alt="tweeterlogo">
+        </figure>
+        </section>
+        <!-- copyrigt section -->
+        <section>
+        <h4 >&lt&lt&lt&lt&copyHrushikeshRaut&copy&gt&gt&gt&gt</h4>
+    </section>
+    </footer>
+</body>
+</html>
